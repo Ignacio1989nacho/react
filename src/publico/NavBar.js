@@ -10,15 +10,16 @@ import InfoYDescarga from './InfoYDescarga';
 
 const NavBar = (props) => {
   return (
-    <div>
+    <div className="div-borde">
       <nav
-        class="navbar navbar-expand-lg navbar bg-dark border-bottom border-body"
+        class="navbar navbar-expand-lg navbar bg-ligthblue border-bottom border-body"
         data-bs-theme="dark"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            {props.tituloNavBar}
-          </a>
+          <img
+            className="tama-img-ico"
+            src={require(`../Imagenes/${props.imagen}.ico`)}
+          />
           <button
             class="navbar-toggler"
             type="button"
@@ -33,14 +34,18 @@ const NavBar = (props) => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <Link to="/">Pagina Principal</Link>
+                <Link to="/" className="color-font">
+                  Pagina Principal
+                </Link>
               </li>
               <li class="nav-item">
-                <Link to="/info">Info y Descarga </Link>
+                <Link to="/info" className="color-font">
+                  Info y Descarga{" "}
+                </Link>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown ">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle "
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -48,30 +53,34 @@ const NavBar = (props) => {
                 >
                   Sistemas
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu bg-ligthblue border-li">
                   <li>
-                    <Link to="/escritorio">Escritorio </Link>
+                    <Link to="/escritorio" className="color-font">
+                      Escritorio{" "}
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/web">Webs</Link>
+                    <Link to="/web" className="color-font">
+                      Webs{" "}
+                    </Link>
                   </li>
+
                   <li>
-                    <a class="dropdown-item" href="#"></a>
-                  </li>
-                  <li>
-                    <Link to="/movile">Movile </Link>
+                    <Link to="/movile" className="color-font">
+                      Movile{" "}
+                    </Link>
                   </li>
                 </ul>
               </li>
             </ul>
             <form class="d-flex" role="search">
               <input
-                class="form-control me-2 "
+                class="form-control me-2 bg-white"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
+              <button class="btn btn-outline-success color-btn" type="submit">
                 Search
               </button>
             </form>
@@ -83,7 +92,7 @@ const NavBar = (props) => {
         <Route path="/escritorio" element={<Escritorio />} />
         <Route path="/movile" element={<Movile />} />
         <Route path="/web" element={<Web />} />
-        <Route path="/info" element={<InfoYDescarga/>}/>
+        <Route path="/info" element={<InfoYDescarga />} />
       </Routes>
       <Outlet />
     </div>

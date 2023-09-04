@@ -5,7 +5,7 @@ import NavBar from "./publico/NavBar";
 function App() {
   return (
     <div classNameName="">
-      <NavBar tituloNavBar="LOTO" />
+      <NavBar imagen="loto_fondo_web" />
 
     </div>
   );

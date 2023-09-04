@@ -7,3 +7,31 @@ li {
     justify-content: center;
     flex-direction: column-reverse
 }
+.bg-ligthblue{
+    background-color: darkblue;
+}
+
+.bg-white{
+    background-color: lightgray;
+}
+
+.color-font{
+    color:white;
+}
+
+.navbar{
+    border: solid black ;
+}
+
+.border-li{
+    border:solid black ;
+}
+
+.color-btn{
+    color: black;
+}
+
+.tama-img-ico{
+    margin-right: 20px;
+    width :15vw;    height: auto;
+}

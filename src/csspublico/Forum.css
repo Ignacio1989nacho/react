@@ -3,7 +3,14 @@
     font-size: 3vw;
 }
 
-.boton {
-    background-color: red;
+button {
+    background: linear-gradient(to right, #74ACDF, white, #74ACDF);
+    border-radius: 15%; 
+    font-family:  sans-serif;
+    font-weight: 700;
+    font: 2.5em;
+    font-weight: 50;
+    line-height: 2.1;
+    font-size: auto;
+    margin-bottom:5px;
 }
-

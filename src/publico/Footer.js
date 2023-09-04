@@ -5,9 +5,9 @@ const Footer = (props) => {
   return (
     <div classNameName="tam-foot color-footer fut">
       <footer classNameName=" d-flex flex-wrap justify-content-between align-items-center  ">
-        <div classNameName="col-md-4 d-flex align-items-center">
+        <div classNameName=" col-md-4 d-flex align-items-center">
           <span classNameName="mb-3 mb-md-0 text-body-secondary">
-            &copy; {dia} LotoSW
+            &copy; {dia} LotoSoftware
           </span>
 
           <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -19,8 +19,6 @@ const Footer = (props) => {
             </a>
           </ul>
         </div>
-
-      
       </footer>
     </div>
   );
