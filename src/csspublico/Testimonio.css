@@ -1,0 +1,11 @@
+.contenedor-general{
+    margin : 16px;
+    max-width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*border: solid black 3px;   */  
+
+}

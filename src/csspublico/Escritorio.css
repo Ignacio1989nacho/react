@@ -1,0 +1,19 @@
+.display{
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;  
+    border-radius: 50px;
+    text-align: center; 
+    
+}
+
+.borde-card{
+    border-radius: 50px;
+}
+
+.margin-bot-imagenes-descripcion{
+
+    margin-bottom: 10px;
+}

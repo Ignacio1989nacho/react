@@ -1,0 +1,9 @@
+.nav-item {
+    margin-right: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse
+}
