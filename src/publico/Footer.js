@@ -1,12 +1,15 @@
 import React from "react";
-
+import "../csspublico/Footer.css";
 const Footer = (props) => {
   const dia = new Date().getFullYear();
   return (
-    <div classNameName="tam-foot color-footer fut">
-      <footer classNameName=" d-flex flex-wrap justify-content-between align-items-center  ">
-        <div classNameName=" col-md-4 d-flex align-items-center">
-          <span classNameName="mb-3 mb-md-0 text-body-secondary">
+    <div classNameName="tam-foot color-footer ">
+      <footer  classNameName="d-flex flex-wrap justify-content-between align-items-center  ">
+        <div id="fut" classNameName="col-md-4 d-flex align-items-center ">
+          <span
+            
+            classNameName=" mb-3 mb-md-0 text-body-secondary "
+          >
             &copy; {dia} LotoSoftware
           </span>
 
@@ -15,7 +18,10 @@ const Footer = (props) => {
               href="/"
               classNameName="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
             >
-              <img src={require(`../Imagenes/${props.imagenFooter}.ico`)} />
+              <img
+                className="imagen-footer"
+                src={require(`../Imagenes/${props.imagenFooter}.ico`)}
+              />
             </a>
           </ul>
         </div>

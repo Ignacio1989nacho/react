@@ -8,6 +8,7 @@ li {
     flex-direction: column-reverse
 }
 .bg-ligthblue{
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
     background-color: rgb(12, 46, 255);
 }
 
@@ -16,6 +17,7 @@ li {
 }
 
 .color-font{
+    
     color:white;
 }
 .borde{
@@ -23,7 +25,7 @@ li {
     --bs-border-color: black!important;
 }
 .navbar{
-    border: solid black 3px  ;
+    border: solid black 3px ;
 }
 
 .border-li{
@@ -37,4 +39,5 @@ li {
 .tama-img-ico{
     margin-right: 20px;
     width :15vw;    height: auto;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }

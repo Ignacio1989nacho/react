@@ -1,5 +1,6 @@
 import React from 'react'
 import "../csspublico/infoYDescarga.css";
+import Footer from './Footer';
 const InfoYDescarga = () => {
   return (
     <div>
@@ -95,6 +96,8 @@ const InfoYDescarga = () => {
           </div>
         </div>
       </div>
+      <br/>
+      <Footer imagenFooter="Email" />
     </div>
   );
 }
