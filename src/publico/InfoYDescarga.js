@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "../csspublico/infoYDescarga.css";
 const InfoYDescarga = () => {
   return (
     <div>
-      <h1>Info y Descarga</h1>
+      <h1 className="ajustar-titulo">Info y Descarga</h1>
       <div class="container marketing">
         <div class="row">
           <div class="col-lg-4">

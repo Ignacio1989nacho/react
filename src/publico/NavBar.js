@@ -12,7 +12,7 @@ const NavBar = (props) => {
   return (
     <div className="div-borde">
       <nav
-        class="navbar navbar-expand-lg navbar bg-ligthblue border-bottom border-body"
+        class="borde navbar navbar-expand-lg navbar bg-ligthblue border-bottom border-body"
         data-bs-theme="dark"
       >
         <div class="container-fluid">
