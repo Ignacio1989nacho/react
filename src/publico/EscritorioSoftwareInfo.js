@@ -1,23 +1,17 @@
 import React from "react";
 import "../csspublico/Escritorio.css";
+import "../csspublico/Imagen.css";
 
 export const EscritorioSoftwareInfo = (props) => {
   return (
     <div className="col ">
       <div className="card shadow-sm borde-card margin-bot-imagenes-descripcion display">
-        <svg
-          className="bd-placeholder-img card-img-top borde-card"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-        >
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#55595c" />
-        </svg>
+        <img
+          className="borde-imagen flex-imagen"
+          src={require(`../Imagenes/${props.imagen}.jpg`)}
+          alt="Imagen aqui"
+        />
+
         <div className="card-body">
           {props.descripcionImagen1}
 
@@ -40,19 +34,11 @@ export const EscritorioSoftwareInfo = (props) => {
         </div>
       </div>
       <div className="card shadow-sm borde-card margin-bot-imagenes-descripcion display">
-        <svg
-          className="bd-placeholder-img card-img-top borde-card"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-        >
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#55595c" />
-        </svg>
+        <img
+          className="borde-imagen flex-imagen"
+          src={require(`../Imagenes/${props.imagen2}.jpg`)}
+          alt="Imagen aqui"
+        />
         <div className="card-body">
           {props.descripcionImagen2}
           <div className="d-flex justify-content-between align-items-center">
@@ -74,19 +60,11 @@ export const EscritorioSoftwareInfo = (props) => {
         </div>
       </div>
       <div className="card shadow-sm borde-card margin-bot-imagenes-descripcion display">
-        <svg
-          className="bd-placeholder-img card-img-top borde-card"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-        >
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#55595c" />
-        </svg>
+        <img
+          className="borde-imagen flex-imagen"
+          src={require(`../Imagenes/${props.imagen3}.jpg`)}
+          alt="Imagen aqui"
+        />
         <div className="card-body">
           {props.descripcionImagen3}
           <div className="d-flex justify-content-between align-items-center">

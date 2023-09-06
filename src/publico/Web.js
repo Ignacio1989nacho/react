@@ -6,9 +6,12 @@ export const Web = () => {
     <div>
       <h1>Web</h1>
       <EscritorioSoftwareInfo
-        descripcionImagen1="Pagina Web,Estilo personalizado,Venta digital online de ropa."
-        descripcionImagen2="Pagina Web,Estilo personalizado,Venta digital online de medias."
-        descripcionImagen3="Pagina Web,Estilo personalizado,Venta digital online foro."
+        descripcionImagen1="Pagina Web, Estilo personalizado, Venta digital."
+        descripcionImagen2="Pagina Web, Estilo personalizado, Foro/Blog."
+        descripcionImagen3="Pagina Web, Estilo personalizado, InfoWeb/Porfolio."
+        imagen="universo_violeta"
+        imagen2="universo_violeta"
+        imagen3="webPersonalizada"
       />
       <br />
       <Footer imagenFooter="Email" />
