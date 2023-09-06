@@ -8,14 +8,15 @@ import "../csspublico/NavBar.css";
 import ElementoPaginaGeneral from './ElementoPaginaGeneral';
 import InfoYDescarga from './InfoYDescarga';
 
+
 const NavBar = (props) => {
   return (
     <div className="div-borde">
       <nav
-        class="borde navbar navbar-expand-lg navbar bg-ligthblue border-bottom border-body"
+        class="imagen-fondo borde navbar navbar-expand-lg navbar bg-ligthblue border-bottom border-body"
         data-bs-theme="dark"
       >
-        <div class="container-fluid">
+        <div class="container-fluid i">
           <img
             className="tama-img-ico"
             src={require(`../Imagenes/${props.imagen}.ico`)}

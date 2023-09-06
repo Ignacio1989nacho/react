@@ -4,11 +4,11 @@ const Footer = (props) => {
   const dia = new Date().getFullYear();
   return (
     <div classNameName="tam-foot color-footer ">
-      <footer  classNameName="d-flex flex-wrap justify-content-between align-items-center  ">
+      <footer classNameName="d-flex flex-wrap justify-content-between align-items-center  ">
         <div id="fut" classNameName="col-md-4 d-flex align-items-center ">
           <span
-            
-            classNameName=" mb-3 mb-md-0 text-body-secondary "
+            id="texto-span"
+            classNameName="  mb-3 mb-md-0 text-body-secondary "
           >
             &copy; {dia} LotoSoftware
           </span>

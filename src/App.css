@@ -2,11 +2,18 @@
   padding: 0;
   margin: 0;
 }
-html{/*border: black solid 3px*/}
+html{
+  
+  }
 body{
     font-size: 18px;
-    background: linear-gradient(to right, #74ACDF, white, #74ACDF);
-    /*border: solid red 3px;*/
+   background: linear-gradient(to right, #74ACDF, white, #74ACDF);
+   background-color: rgba(51, 53, 53, 0.311);
+    /*box-shadow: 25px -10px 15px -10px rgba(0, 0, 0, 0.5);
+    background-image:url('./Imagenes/universo_negro.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+   
     
 
 }
@@ -41,7 +48,19 @@ h1{
     box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.5);
     
 }
+.fondo-tierra{
+   /* background-image: url('./Imagenes/universo_violeta.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+  
+  border-radius: 100%;
+  border:solid blue 3px;
+  background-color: red;
 
+  background-image: url('./Imagenes/fondo_navbar.jpg');
+  background-size: 100vw 100vh;
+  background-size: 100% 100%;*/
+}
 
 .App{
   min-width: 100vh;
@@ -50,4 +69,5 @@ h1{
   align-items: center;
   justify-content: center;
   text-align: center;
+  
 }

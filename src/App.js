@@ -4,9 +4,9 @@ import NavBar from "./publico/NavBar";
 
 function App() {
   return (
-    <div classNameName="">
+    <div className="fondo-tierra">
       <NavBar imagen="loto_fondo_web" />
-
+      
     </div>
   );
 }
