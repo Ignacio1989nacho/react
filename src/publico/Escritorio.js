@@ -13,7 +13,7 @@ export const Escritorio = () => {
         descripcionImagen3="Software de escritorio, Estilo personalizado, Sistema basico de lenguaje de señas +5.(Donación)"
         imagen="calculadora"
         imagen2="logistica"
-        imagen3="universo_violeta"
+        imagen3="bubbleEscuela"
       />
       <br />
       <Footer imagenFooter="Email" />
