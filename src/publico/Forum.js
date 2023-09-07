@@ -28,7 +28,13 @@ const Forum = (props) => {
       <button
         classNameName="btn boton"
         onClick={() => {
+          let email = document.getElementById("exampleFormControlInput1").value;
+          let consulta = document.getElementById("exampleFormControlTextarea1").value;
+          console.log(`Email: ${email} - Consulta: ${consulta} `)
+          document.getElementById("exampleFormControlInput1").value ="";
+          document.getElementById("exampleFormControlTextarea1").value = "";
           alert("Mensaje Enviado");
+
         }}
       >
         Enviar
