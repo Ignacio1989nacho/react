@@ -8,7 +8,7 @@ export const EscritorioSoftwareInfo = (props) => {
       <div className="card shadow-sm borde-card margin-bot-imagenes-descripcion display">
         <img
           className="borde-imagen flex-imagen"
-          src={require(`../Imagenes/${props.imagen}.jpg`)}
+          src={require(`../Imagenes/${props.imagen}.gif`)}
           alt="Imagen aqui"
         />
 
@@ -36,7 +36,7 @@ export const EscritorioSoftwareInfo = (props) => {
       <div className="card shadow-sm borde-card margin-bot-imagenes-descripcion display">
         <img
           className="borde-imagen flex-imagen"
-          src={require(`../Imagenes/${props.imagen2}.jpg`)}
+          src={require(`../Imagenes/${props.imagen2}.gif`)}
           alt="Imagen aqui"
         />
         <div className="card-body">
@@ -62,7 +62,7 @@ export const EscritorioSoftwareInfo = (props) => {
       <div className="card shadow-sm borde-card margin-bot-imagenes-descripcion display">
         <img
           className="borde-imagen flex-imagen"
-          src={require(`../Imagenes/${props.imagen3}.jpg`)}
+          src={require(`../Imagenes/${props.imagen3}.gif`)}
           alt="Imagen aqui"
         />
         <div className="card-body">
