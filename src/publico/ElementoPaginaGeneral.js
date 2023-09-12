@@ -9,7 +9,7 @@ export const ElementoPaginaGeneral = () => {
   return (
     <div>
       
-      <h1>LOTO SOFTWARE</h1>
+      <h1>LOTO SISTEMAS</h1>
       <Testimonio imagen="loto_fondo_web" />
       <Main
         imagen=""

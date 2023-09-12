@@ -10,7 +10,7 @@ const Footer = (props) => {
             id="texto-span"
             classNameName="  mb-3 mb-md-0 text-body-secondary "
           >
-            &copy; {dia} LotoSoftware
+            &copy; {dia} Loto Sistemas
           </span>
 
           <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">

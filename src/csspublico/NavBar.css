@@ -1,5 +1,5 @@
 .nav-item {
-    margin-right: 20px;
+    margin-right: 10vw;
 }
 
 li {
@@ -21,12 +21,13 @@ li {
     color:white;
 }
 .borde{
-    border-width:3px!important;
+    border-width:5px!important;
     --bs-border-color: black!important;
 }
-/*.navbar{
+.navbar{
     border: solid black 3px ;
 }
+
 
 .border-li{
     border:solid black ;
@@ -34,7 +35,7 @@ li {
 
 .color-btn{
     color: black;
-}*/
+}
 
 .tama-img-ico{
     margin-right: 20px;
@@ -43,7 +44,17 @@ li {
 }
 .imagen-fondo{
 
-    background-image: url('../Imagenes/fondo_estrella.jpg');
+   /* background-image: url('../Imagenes/fondo_estrella.jpg');*/
     background-size: 100vw;
         
+}
+
+.descrip-text{
+    color: black;
+    text-decoration: none;
+}
+
+.margin-segunda-imagen{
+
+    margin-right: 3px;
 }

@@ -35,18 +35,18 @@ const NavBar = (props) => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <Link to="/" className="color-font">
+                <Link to="/" className="color-font descrip-text">
                   Pagina Principal
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/info" className="color-font">
+              <li class="nav-item ">
+                <Link to="/info" className="color-font descrip-text">
                   Info y Descarga{" "}
                 </Link>
               </li>
               <li class="nav-item dropdown ">
                 <a
-                  class="nav-link dropdown-toggle "
+                  class="descrip-text  dropdown-toggle  "
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -54,37 +54,30 @@ const NavBar = (props) => {
                 >
                   Sistemas
                 </a>
-                <ul class="dropdown-menu bg-ligthblue border-li">
+                <ul class="dropdown-menu bg-ligthblue border-li ">
                   <li>
-                    <Link to="/escritorio" className="color-font">
+                    <Link to="/escritorio" className="color-font ">
                       Escritorio{" "}
                     </Link>
                   </li>
                   <li>
-                    <Link to="/web" className="color-font">
+                    <Link to="/web" className="color-font ">
                       Webs{" "}
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/movile" className="color-font">
+                    <Link to="/movile" className="color-font ">
                       Movile{" "}
                     </Link>
                   </li>
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2 bg-white"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success color-btn" type="submit">
-                Search
-              </button>
-            </form>
+            <img
+              className="tama-img-ico margin-segunda-imagen"
+              src={require(`../Imagenes/${props.imagen}.ico`)}
+            />
           </div>
         </div>
       </nav>
