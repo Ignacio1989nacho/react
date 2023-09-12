@@ -10,9 +10,9 @@ export const Movile = () => {
         descripcionImagen1="App Movile,Estilo personalizado,Info coneccion Locos x el futbol."
         descripcionImagen2="App Movile,Estilo personalizado,Info coneccion Locos x el futbol."
         descripcionImagen3="App Movile,Estilo personalizado,Info coneccion Locos x el futbol."
-        imagen="universo_violeta"
-        imagen2="universo_violeta"
-        imagen3="universo_violeta"
+        imagen="ruedra_cargando"
+        imagen2="ruedra_cargando"
+        imagen3="ruedra_cargando"
       />
       <br />
       <Footer imagenFooter="Email" />
