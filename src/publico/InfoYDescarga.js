@@ -27,8 +27,8 @@ const InfoYDescarga = () => {
             </svg>
             <h2 class="fw-normal">Heading</h2>
             <p>
-              En esta seccion brindamos al usuario un demo de los sistemas ya
-              realizados, para su mejor comprención.
+              En esta sección brindamos al usuario un demo de los sistemas ya
+              realizados, para su mejor comprensión.
               <br />Y pedir o realizar futuras modificaciones.
             </p>
             <p>
