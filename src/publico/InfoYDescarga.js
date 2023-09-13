@@ -3,9 +3,9 @@ import "../csspublico/infoYDescarga.css";
 import Footer from './Footer';
 const InfoYDescarga = () => {
   return (
-    <div>
+    <div className="">
       <h1 className="ajustar-titulo">Info y Descarga</h1>
-      <div class="container marketing">
+      <div class="container marketing ">
         <div class="row">
           <div class="col-lg-4">
             <svg
@@ -27,12 +27,17 @@ const InfoYDescarga = () => {
             </svg>
             <h2 class="fw-normal">Heading</h2>
             <p>
-              Some representative placeholder content for the three columns of
-              text below the carousel. This is the first column.
+              En esta seccion brindamos al usuario un demo de los sistemas ya
+              realizados, para su mejor comprención.
+              <br />Y pedir o realizar futuras modificaciones.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#">
-                View details &raquo;
+              <a
+                className=""
+                class="btn btn-secondary"
+                href="https://drive.google.com/uc?id=16mVfU2yl7i0_9_aapPA7Snxi1dYCr_x7&export=download"
+              >
+                Descarga DEMO Calc Costo
               </a>
             </p>
           </div>
@@ -96,7 +101,7 @@ const InfoYDescarga = () => {
           </div>
         </div>
       </div>
-      <br/>
+      <br />
       <Footer imagenFooter="Email" />
     </div>
   );
