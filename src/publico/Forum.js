@@ -1,10 +1,14 @@
 import React from "react";
 import "../csspublico/Forum.css";
 
+import TarjetaDatos from "./TarjetaDatos";
 const Forum = (props) => {
   return (
-    <div classNameName="">
-      <div className="mb-3 ">
+    <div className="display-flex">
+      <div className="display-flex-start">
+        <TarjetaDatos imagen = "tarjeta" />
+      </div>
+      <div className="mb-3 tam-div-dato">
         <label for="exampleFormControlInput1 " className="form-label ">
           EMAIL:
         </label>
@@ -14,8 +18,7 @@ const Forum = (props) => {
           id="exampleFormControlInput1"
           placeholder="name@example.com"
         />
-      </div>
-      <div className="mb-3">
+
         <label for="exampleFormControlTextarea1" className="form-label">
           {props.consulta}
         </label>
@@ -24,21 +27,10 @@ const Forum = (props) => {
           id="exampleFormControlTextarea1"
           rows="3"
         ></textarea>
+        <button classNameName="btn boton" id="BotonClick">
+          Enviar
+        </button>
       </div>
-      <button
-        classNameName="btn boton"
-        onClick={() => {
-          let email = document.getElementById("exampleFormControlInput1").value;
-          let consulta = document.getElementById("exampleFormControlTextarea1").value;
-          console.log(`Email: ${email} - Consulta: ${consulta} `)
-          document.getElementById("exampleFormControlInput1").value ="";
-          document.getElementById("exampleFormControlTextarea1").value = "";
-          alert("Mensaje Enviado");
-
-        }}
-      >
-        Enviar
-      </button>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .nav-item {
-    margin-right: 10vw;
+    margin-right: 5vw;
 }
 
 li {
@@ -52,9 +52,14 @@ li {
 .descrip-text{
     color: black;
     text-decoration: none;
+    font-weight: 700;
 }
 
 .margin-segunda-imagen{
 
     margin-right: 3px;
+}
+
+.margen-izq{
+    margin-left: auto!important;
 }

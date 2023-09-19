@@ -15,3 +15,33 @@ button {
     font-size: auto;
     margin-bottom:5px;
 }
+
+.display-flex{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+   /* align-items: flex-end;*/
+   /* border: solid black 3px;*/
+}
+.tam-div-dato{
+    width: 50vw;
+    height: auto;
+   /* border:solid red 3px;*/
+
+}
+
+.display-flex-start{
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+   /* border: solid black 3px;*/
+    width: 50vw;
+}
+
+.estilo-normal{
+    margin:auto;
+    color:black;
+    text-shadow: none;
+    text-rendering: auto;
+    margin-left: 5px;
+}

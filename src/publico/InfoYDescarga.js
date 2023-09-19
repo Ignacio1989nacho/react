@@ -27,9 +27,8 @@ const InfoYDescarga = () => {
             </svg>
             <h2 class="fw-normal">Heading</h2>
             <p>
-              En esta sección brindamos al usuario un demo de los sistemas ya
-              realizados, para su mejor comprensión.
-              <br />Y pedir o realizar futuras modificaciones.
+              Demo calculadora básica de costo.
+              <br />
             </p>
             <p>
               <a
@@ -60,13 +59,13 @@ const InfoYDescarga = () => {
               />
             </svg>
             <h2 class="fw-normal">Heading</h2>
+            <p>Demo basico control de lineas de carga en logistica.</p>
             <p>
-              Another exciting bit of representative placeholder content. This
-              time, we've moved on to the second column.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#">
-                View details &raquo;
+              <a
+                class="btn btn-secondary"
+                href="https://drive.google.com/uc?id=1VYguBtlDC50QBn7cY9Se29msi8HFYj_l&export=download"
+              >
+                Descarga DEMO Control Linea
               </a>
             </p>
           </div>
@@ -89,19 +88,20 @@ const InfoYDescarga = () => {
               />
             </svg>
             <h2 class="fw-normal">Heading</h2>
-            <p>
-              And lastly this, the third column of representative placeholder
-              content.
-            </p>
+            <p>Agenda digital de clientes.</p>
             <p>
               <a class="btn btn-secondary" href="#">
-                View details &raquo;
+                Descargar DEMO Agenda Digital.
               </a>
             </p>
           </div>
         </div>
       </div>
       <br />
+      <p>
+        <strong>IMPORTANTE:</strong> PARA PODER EJECUTAR LOS PROGRAMAS NECESITA
+        TENER INSTALADO JAVA
+      </p>
       <Footer imagenFooter="Email" />
     </div>
   );
