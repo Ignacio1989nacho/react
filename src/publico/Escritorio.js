@@ -10,10 +10,10 @@ export const Escritorio = () => {
       <EscritorioSoftwareInfo
         descripcionImagen1="Software de escritorio, Estilo personalizado, Calculadora de costos en Industria. Conección a base de datos estilo nube o local. Propia definida por el cliente."
         descripcionImagen2="Software de escritorio, Estilo personalizado, Control de lineas en Logistica. Conección a base de datos estilo nube o local. Propia definida por el cliente."
-        descripcionImagen3="Software de escritorio, Estilo personalizado, Sistema basico de lenguaje de señas +5.(Donación)"
+        descripcionImagen3="Software de escritorio, Estilo personalizado, Sistema Agenda Medica."
         imagen="gm"
         imagen2="logistica"
-        imagen3="bubble"
+        imagen3="formularioMedico"
       />
       <br />
       <Footer imagenFooter="Email" />
