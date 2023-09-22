@@ -17,18 +17,7 @@ export const EscritorioSoftwareInfo = (props) => {
 
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-secondary"
-              >
-                View
-              </button>
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-secondary"
-              >
-                Edit
-              </button>
+
             </div>
           </div>
         </div>
@@ -43,18 +32,7 @@ export const EscritorioSoftwareInfo = (props) => {
           {props.descripcionImagen2}
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-secondary"
-              >
-                View
-              </button>
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-secondary"
-              >
-                Edit
-              </button>
+    
             </div>
           </div>
         </div>
@@ -69,18 +47,7 @@ export const EscritorioSoftwareInfo = (props) => {
           {props.descripcionImagen3}
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-secondary"
-              >
-                View
-              </button>
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-secondary"
-              >
-                Edit
-              </button>
+       
             </div>
           </div>
         </div>

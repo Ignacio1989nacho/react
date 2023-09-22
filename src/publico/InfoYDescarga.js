@@ -1,31 +1,21 @@
 import React from 'react'
 import "../csspublico/infoYDescarga.css";
 import Footer from './Footer';
-const InfoYDescarga = () => {
+const InfoYDescarga = (props) => {
   return (
     <div className="">
       <h1 className="ajustar-titulo">Info y Descarga</h1>
       <div class="container marketing ">
         <div class="row">
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
+            <div className="esfera">
+              <img
+              className="imagen1"
+                src={require(`../Imagenes/${props.imagen1}.jpg`)}
+                alt="imagen"
               />
-            </svg>
-            <h2 class="fw-normal">Heading</h2>
+            </div>
+            
             <p>
               Demo calculadora básica de costo.
               <br />
@@ -41,24 +31,14 @@ const InfoYDescarga = () => {
             </p>
           </div>
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
+            <div className="esfera">
+              <img
+              className="imagen1"
+                src={require(`../Imagenes/${props.imagen2}.jpg`)}
+                alt="imagen"
               />
-            </svg>
-            <h2 class="fw-normal">Heading</h2>
+            </div>
+           
             <p>Demo basico control de lineas de carga en logistica.</p>
             <p>
               <a
@@ -70,24 +50,14 @@ const InfoYDescarga = () => {
             </p>
           </div>
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
+            <div className="esfera">
+              <img
+                className="imagen1"
+                src={require(`../Imagenes/${props.imagen3}.jpg`)}
+                alt="imagen"
               />
-            </svg>
-            <h2 class="fw-normal">Heading</h2>
+            </div>
+           
             <p>Agenda digital de clientes.</p>
             <p>
               <a class="btn btn-secondary" href="#">
@@ -99,8 +69,8 @@ const InfoYDescarga = () => {
       </div>
       <br />
       <p>
-        <strong>IMPORTANTE:</strong> PARA PODER EJECUTAR LOS PROGRAMAS NECESITA
-        TENER INSTALADO JAVA
+        <strong className="colorf">IMPORTANTE:</strong> PARA PODER EJECUTAR LOS
+        PROGRAMAS NECESITA TENER INSTALADO JAVA
       </p>
       <Footer imagenFooter="Email" />
     </div>

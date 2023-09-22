@@ -74,7 +74,16 @@ const NavBar = (props) => {
         <Route path="/escritorio" element={<Escritorio />} />
         <Route path="/movile" element={<Movile />} />
         <Route path="/web" element={<Web />} />
-        <Route path="/info" element={<InfoYDescarga />} />
+        <Route
+          path="/info"
+          element={
+            <InfoYDescarga
+              imagen1="logistica"
+              imagen2="calculadora"
+              imagen3="formularioMedico"
+            />
+          }
+        />
       </Routes>
       <Outlet />
     </div>
