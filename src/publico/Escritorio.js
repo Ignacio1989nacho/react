@@ -8,12 +8,17 @@ export const Escritorio = () => {
     <div>
       <h1>Escritorio</h1>
       <EscritorioSoftwareInfo
-        descripcionImagen1="Software de escritorio, Estilo personalizado, Calculadora de costos en Industria. Conección a base de datos estilo nube o local. Propia definida por el cliente."
-        descripcionImagen2="Software de escritorio, Estilo personalizado, Control de lineas en Logistica. Conección a base de datos estilo nube o local. Propia definida por el cliente."
-        descripcionImagen3="Software de escritorio, Estilo personalizado, Sistema Agenda Medica."
+        descripcionImagen1="Software de escritorio, Estilo personalizado, Calculadora de costos en Industria. Conección a base de datos estilo nube o local. Propia definida por el cliente."    
         imagen="gm"
-        imagen2="logistica"
-        imagen3="formularioMedico"
+      />
+      <EscritorioSoftwareInfo
+        descripcionImagen1="Software de escritorio, Estilo personalizado, Control de lineas en Logistica. Conección a base de datos estilo nube o local. Propia definida por el cliente."
+        imagen="logistica"
+
+      />
+      <EscritorioSoftwareInfo
+        descripcionImagen1="Software de escritorio, Estilo personalizado, Sistema Agenda Medica."
+        imagen="formularioMedico"
       />
       <br />
       <Footer imagenFooter="Email" />
