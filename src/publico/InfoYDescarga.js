@@ -11,7 +11,7 @@ const InfoYDescarga = (props) => {
             <div className="esfera">
               <img
               className="imagen1"
-                src={require(`../Imagenes/${props.imagen1}.jpg`)}
+                src={require(`../Imagenes/${props.imagen2}.jpg`)}
                 alt="imagen"
               />
             </div>
@@ -34,7 +34,7 @@ const InfoYDescarga = (props) => {
             <div className="esfera">
               <img
               className="imagen1"
-                src={require(`../Imagenes/${props.imagen2}.jpg`)}
+                src={require(`../Imagenes/${props.imagen1}.jpg`)}
                 alt="imagen"
               />
             </div>

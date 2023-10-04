@@ -17,7 +17,9 @@ export const EscritorioSoftwareInfo = (props) => {
 
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
-
+              <a href="https://lasmechis.netlify.app/" target="_blank">
+                Las Mechis.
+              </a>
             </div>
           </div>
         </div>
@@ -32,7 +34,9 @@ export const EscritorioSoftwareInfo = (props) => {
           {props.descripcionImagen2}
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
-    
+              <a href="https://dipardodev.netlify.app/" target="_blank">
+                Porfolio.
+              </a>
             </div>
           </div>
         </div>
@@ -46,9 +50,7 @@ export const EscritorioSoftwareInfo = (props) => {
         <div className="card-body">
           {props.descripcionImagen3}
           <div className="d-flex justify-content-between align-items-center">
-            <div className="btn-group">
-       
-            </div>
+            <div className="btn-group"></div>
           </div>
         </div>
       </div>

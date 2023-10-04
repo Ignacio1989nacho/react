@@ -9,7 +9,7 @@ export const Web = () => {
         descripcionImagen1="Pagina Web, Estilo personalizado, Venta digital."
         descripcionImagen2="Pagina Web, Estilo personalizado, InfoWeb/Porfolio."
         descripcionImagen3="Pagina Web, Estilo personalizado, Foro/Blog."
-        imagen="mechis"
+        imagen="lasmechislenceria"
         imagen2="porfolioej"
         imagen3="loginWeb"
       />
