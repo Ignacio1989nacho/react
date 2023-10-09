@@ -11,5 +11,7 @@
 .imagen1{width: 100%;}
 
 
-
+.item-centro{
+    display:flex;
+    align-items: center;}
 

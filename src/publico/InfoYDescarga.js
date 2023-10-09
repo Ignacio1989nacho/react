@@ -10,12 +10,12 @@ const InfoYDescarga = (props) => {
           <div class="col-lg-4">
             <div className="esfera">
               <img
-              className="imagen1"
+                className="imagen1"
                 src={require(`../Imagenes/${props.imagen2}.jpg`)}
                 alt="imagen"
               />
             </div>
-            
+
             <p>
               Demo calculadora básica de costo.
               <br />
@@ -33,12 +33,12 @@ const InfoYDescarga = (props) => {
           <div class="col-lg-4">
             <div className="esfera">
               <img
-              className="imagen1"
+                className="imagen1"
                 src={require(`../Imagenes/${props.imagen1}.jpg`)}
                 alt="imagen"
               />
             </div>
-           
+
             <p>Demo basico control de lineas de carga en logistica.</p>
             <p>
               <a
@@ -57,7 +57,7 @@ const InfoYDescarga = (props) => {
                 alt="imagen"
               />
             </div>
-           
+
             <p>Agenda digital de clientes.</p>
             <p>
               <a class="btn btn-secondary" href="#">
@@ -71,7 +71,16 @@ const InfoYDescarga = (props) => {
       <p>
         <strong className="colorf">IMPORTANTE:</strong> PARA PODER EJECUTAR LOS
         PROGRAMAS NECESITA TENER INSTALADO JAVA
+        <a
+          className="item-centro"
+          class="btn btn-secondary"
+          href="https://www.java.com/es/download/ie_manual.jsp"
+          taget="_blank"
+        >
+          DOWNLOAD JAVA JRE 8.0
+        </a>
       </p>
+
       <Footer imagenFooter="Email" />
     </div>
   );
