@@ -43,7 +43,7 @@ const InfoYDescarga = (props) => {
             <p>
               <a
                 class="btn btn-secondary"
-                href="https://drive.google.com/uc?id=1VYguBtlDC50QBn7cY9Se29msi8HFYj_l&export=download"
+                href="https://drive.google.com/uc?id=1r1NuZKW_xmkWA7-0rWaeTgCE2lhYA5FJ&export=download"
               >
                 Descarga DEMO Control Linea
               </a>
