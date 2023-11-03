@@ -7,12 +7,12 @@ export const Movile = () => {
       <h1>Movile</h1>
 
       <EscritorioSoftwareInfo
-        descripcionImagen1="App Movile,Estilo personalizado,Info coneccion Locos x el futbol."
-        descripcionImagen2="App Movile,Estilo personalizado,Info coneccion Locos x el futbol."
-        descripcionImagen3="App Movile,Estilo personalizado,Info coneccion Locos x el futbol."
-        imagen="ruedra_cargando"
-        imagen2="ruedra_cargando"
-        imagen3="ruedra_cargando"
+        descripcionImagen1="App Movile ejemplo, Conección a su propia base de datos, la misma recolecta la información necesaria desde el programa de control de linea, es decir los dos programas estan conectados entre si."
+        imagen="infoWebLogistica"
+      />
+      <EscritorioSoftwareInfo
+        descripcionImagen1="App Movile ejemplo, Conección a su propia base de datos, la misma recolecta la información necesaria desde el programa de calculadora de costos, es decir los dos programas estan conectados entre si."
+        imagen="infoWebIndustria"
       />
       <br />
       <Footer imagenFooter="Email" />
