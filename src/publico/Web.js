@@ -21,7 +21,7 @@ export const Web = () => {
         nombre="Porfolio"
       />
       <WebInfo
-        descripcionImagen1="Pagina Web, Estilo personalizado, Foro/Blog."
+        descripcionImagen1="Pagina Web, Estilo personalizado, Foro/Blog/Red social."
         imagen="loginWeb"
       />
 
