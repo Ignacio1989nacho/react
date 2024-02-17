@@ -45,3 +45,7 @@ button {
     text-rendering: auto;
     margin-left: 5px;
 }
+.tam-div-tarjeta{
+    margin:10px;
+    text-align: center;
+}

@@ -5,6 +5,7 @@ const InfoYDescarga = (props) => {
   return (
     <div className="">
       <h1 className="ajustar-titulo">Info y Descarga</h1>
+
       <div class="container marketing ">
         <div class="row">
           <div class="col-lg-4">
@@ -16,17 +17,17 @@ const InfoYDescarga = (props) => {
               />
             </div>
 
-            <p>
-              Demo calculadora básica de costo.
-              <br />
-            </p>
+            <p>Demo calculadora básica de costo.</p>
+
             <p>
               <a
                 className=""
                 class="btn btn-secondary"
                 href="https://drive.google.com/uc?id=16mVfU2yl7i0_9_aapPA7Snxi1dYCr_x7&export=download"
               >
-                Descarga DEMO Calc Costo
+                <span>👉</span>
+                Descarga DEMO Calc Costo para PC
+                <span>👈</span>
               </a>
             </p>
           </div>
@@ -45,7 +46,8 @@ const InfoYDescarga = (props) => {
                 class="btn btn-secondary"
                 href="https://drive.google.com/uc?id=1r1NuZKW_xmkWA7-0rWaeTgCE2lhYA5FJ&export=download"
               >
-                Descarga DEMO Control Linea
+                <span>👉</span>
+                Descarga DEMO Control Linea para PC<span>👈</span>
               </a>
             </p>
           </div>
@@ -58,10 +60,11 @@ const InfoYDescarga = (props) => {
               />
             </div>
 
-            <p>Agenda digital de clientes.</p>
+            <p>Agenda digital de pacientes.</p>
             <p>
               <a class="btn btn-secondary" href="#">
-                Descargar DEMO Agenda Digital.
+                <span>👉</span>
+                Descargar DEMO Agenda Digital para PC<span>👈</span>
               </a>
             </p>
           </div>
@@ -77,7 +80,9 @@ const InfoYDescarga = (props) => {
           href="https://www.java.com/es/download/ie_manual.jsp"
           taget="_blank"
         >
+          <span>👉</span>
           DOWNLOAD JAVA JRE 8.0
+          <span>👈</span>
         </a>
       </p>
 
